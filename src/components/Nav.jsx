@@ -36,7 +36,7 @@ const Nav = () => {
             <span className="cart__length">2</span>
           </li>
         </ul>
-        <div className="meny__backdrop">
+        <div className="menu__backdrop">
           <button className="btn__menu btn__menu--close" onClick={closeMenu}>
             <FontAwesomeIcon icon="times" />
           </button>
