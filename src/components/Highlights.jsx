@@ -5,12 +5,12 @@ import React from 'react'
 const Highlights = () => {
   return (
     <section id="highlights">
-      <div class="container">
-        <div class="row">
-          <h2 class="section__title">
-            Why choose <span class="purple">Library</span>
+      <div className="container">
+        <div className="row">
+          <h2 className="section__title">
+            Why choose <span className="purple">Library</span>
           </h2>
-          <div class="highlight__wrapper">
+          <div className="highlight__wrapper">
             <Highlight icon={<FontAwesomeIcon icon="bolt" />}
             title="Easy and Quick"
             para="Get access to the book you purchased online instantly." />
