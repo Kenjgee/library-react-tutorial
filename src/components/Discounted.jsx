@@ -1,0 +1,27 @@
+import React from "react";
+import { books } from "../data";
+import Book from "./UI/Book.jsx";
+
+const Discounted = () => {
+  return (
+    <section id="recent">
+      <div className="container">
+        <div className="row">
+          <div className="section title">
+            Discounted <span className="purple">Books</span>
+          </div>
+          <div class="books">
+            {books
+              .filter((book) => book.salePrice > 0)
+              .slice(0, 8)
+              .map((book) => (
+                <Book book={book} key={book.id} />
+              ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Discounted;
