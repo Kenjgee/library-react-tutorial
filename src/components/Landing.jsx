@@ -1,5 +1,6 @@
-import React from "react"
+import React from "react";
 import UndrawBooks from "../assets/Undraw_Books.svg";
+import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
@@ -7,10 +8,12 @@ const Landing = () => {
       <header className="header__container">
         <div className="header__description">
           <h1>USA's most awarded online Library platform</h1>
-          <h2>Find your dream book with<span className="purple">Library</span></h2>
-          <a href="#features">
+          <h2>
+            Find your dream book with<span className="purple">Library</span>
+          </h2>
+          <Link to="#features">
             <button className="btn">Browse Books</button>
-          </a>
+          </Link>
         </div>
         <figure className="header__ing--wrapper">
           <img src={UndrawBooks} alt="" />
@@ -18,6 +21,6 @@ const Landing = () => {
       </header>
     </section>
   );
-}
+};
 
 export default Landing;
