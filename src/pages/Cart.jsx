@@ -20,10 +20,10 @@ const Cart = () => {
                   <div className="cart__book">
                     <img src="https://m.media-amazon.com/images/I/61mIq2iJUXL._AC_UF1000,1000_QL80_.jpg" className="cart__book--img" alt="" />
                     <div className="cart__book--info">
-                      <span className="cart__boot--title">
+                      <span className="cart__book--title">
                         Crack the coding interview
                       </span>
-                      <span classname="cart__book--price">
+                      <span className="cart__book--price">
                         $10.00
                       </span>
                       <button className="cart__book--remove">
