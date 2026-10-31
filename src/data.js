@@ -19,7 +19,7 @@ export const books = [
   {
     id: 3,
     title: "The Ultimate AI For Beginners Guide",
-    url: "https://m.media-amazon.com/images/I/71ezm+-zwqL._SL1360_.jpghttps://m.media-amazon.com/images/I/81gTRv2HXrL._AC_UF1000,1000_QL80_.jpg",
+    url: "https://m.media-amazon.com/images/I/71ezm+-zwqL._SY522_.jpg",
     originalPrice: 29,
     salePrice: 14.99,
     rating: 5,
