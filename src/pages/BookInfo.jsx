@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState } from "react";
+import React from "react";
 import { Link, useParams } from "react-router-dom";
 import Rating from "../components/UI/Rating";
 import Price from "../components/UI/Price";
@@ -60,7 +60,7 @@ const BookInfo = ({ books, addToCart, cart }) => {
                 </div>
                 {bookExistsOnCart() ? (
                   <Link to={`/cart`} className="book__link">
-                  <button className="btn">Checkout</button>
+                    <button className="btn">Checkout</button>
                   </Link>
                 ) : (
                   <button className="btn" onClick={() => addBookToCart(book)}>
