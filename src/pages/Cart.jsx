@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Cart = () => {
   return (
@@ -18,24 +18,27 @@ const Cart = () => {
               <div className="cart__body">
                 <div className="cart__item">
                   <div className="cart__book">
-                    <img src="https://m.media-amazon.com/images/I/61mIq2iJUXL._AC_UF1000,1000_QL80_.jpg" className="cart__book--img" alt="" />
+                    <img
+                      src="https://m.media-amazon.com/images/I/61mIq2iJUXL._AC_UF1000,1000_QL80_.jpg"
+                      className="cart__book--img"
+                      alt=""
+                    />
                     <div className="cart__book--info">
                       <span className="cart__book--title">
                         Crack the coding interview
                       </span>
-                      <span className="cart__book--price">
-                        $10.00
-                      </span>
-                      <button className="cart__book--remove">
-                        Remove
-                      </button>
+                      <span className="cart__book--price">$10.00</span>
+                      <button className="cart__book--remove">Remove</button>
                     </div>
                   </div>
                   <div className="cart__quantity">
-                    <input type="number" min={0} max={99} className="cart__input" />
-                    <div className="cart__total">
-                      $10.00
-                    </div>
+                    <input
+                      type="number"
+                      min={0}
+                      max={99}
+                      className="cart__input"
+                    />
+                    <div className="cart__total">$10.00</div>
                   </div>
                 </div>
               </div>
@@ -43,17 +46,19 @@ const Cart = () => {
                 <div className="total__item total__sub-total">
                   <span>Subtotal</span>
                   <span>$9.00</span>
-                  </div>
+                </div>
                 <div className="total__item total__tax">
                   <span>Tax</span>
-                  <span>$1.00</span>                  
+                  <span>$1.00</span>
                 </div>
                 <div className="total__item total__Price">
                   <span>Total</span>
-                  <span>$10.00</span>                  
+                  <span>$10.00</span>
                 </div>
-                <button className="btn btn__checkout no-cursor"
-                onClick={() => alert(`Haven't got around to doing this :(` )}>
+                <button
+                  className="btn btn__checkout no-cursor"
+                  onClick={() => alert(`Haven't got around to doing this :(`)}
+                >
                   Proceed to checkout
                 </button>
               </div>
@@ -62,7 +67,7 @@ const Cart = () => {
         </div>
       </main>
     </div>
-  )
-}
+  );
+};
 
-export default Cart
+export default Cart;
